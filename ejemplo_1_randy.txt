@@ -1,0 +1,18 @@
+"HTTP/1.1 200 OK\nContent-Type: text/html"
+
+ 
+<html>\n<head>\n<title>BRAZO ROBOTICO</title>\n</head>\n<body>
+<div style='text-align:center
+<h2>CONTROL DEL BRAZO ROBOTICO</h2>
+          
+<br/>
+<button onClick=location.href='./?data1=0'>ANGULO30</button>
+<button onClick=location.href='./?data1=2'>ANGULO60</button>
+<button onClick=location.href='./?data1=3'>GRADO90</button>
+<button onClick=location.href='./?data1=4'>GRADO120</button>
+<button onClick=location.href='./?data1=5'>GRADO150</button>
+<button onClick=location.href='./?data1=6'>GRADO180</button>
+<button onClick=location.href='./?data1=1'>OFF</button>
+<br/><br/>
+<a href='http://192.168.1.80'>Refrescar</a>
+</div>\n</body></html>
